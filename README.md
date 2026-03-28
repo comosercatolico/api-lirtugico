@@ -1,32 +1,30 @@
-## API_LITURGIA_DIARIA
+# ✨ API Liturgia Diária • Lux Fidei
 
-@Josué.Santos
+API desenvolvida para fornecer as leituras diárias da Igreja Católica de forma estruturada, rápida e acessível, com foco em projetos de evangelização digital.
 
-## Tecnologias
+---
+
+## 📌 Sobre o Projeto
+
+A **API Liturgia Diária • Lux Fidei** permite acessar:
+
+- 📖 Leituras do dia (Primeira Leitura, Salmo, Segunda Leitura e Evangelho)
+- 🎨 Cor litúrgica
+- 📅 Data da liturgia
+- 🙏 Santo do dia
+
+Tudo isso em formato JSON, pronto para uso em sites, aplicativos e sistemas.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
 - Python
-- Biblioteca Flask
-- Biblioteca Beautiful Soup
+- Flask
+- BeautifulSoup (Web Scraping)
+- Flask-CORS
+- Requests
 
-## Objetivo
-A API_LITURGIA_DIARIA visa disponibilizar via api as leituras para facilitar a criação de aplicações que almejam a evangelização.
+---
 
-## URL
-https://api-liturgia-diaria.vercel.app/
-
-## Parametros
-https://api-liturgia-diaria.vercel.app/?date=2024-11-25
-
-## URL Canção Nova
-https://api-liturgia-diaria.vercel.app/cn
-
-## URL Canção Nova Santo do Dia
-https://api-liturgia-diaria.vercel.app/santo-do-dia
-
-## Fonte
-1. https://sagradaliturgia.com.br/
-2. Canção Nova
-
-*Caso a fonte 1 falhe, consulte a fonte 2
-
-### Plugin Wordpress
-https://github.com/JosueSantos/wp-liturgia-diaria-plugin
+## 🌐 Base URL
